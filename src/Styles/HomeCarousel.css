@@ -1,0 +1,40 @@
+@import "./ColorPallete.css"; /* Color Pallete and Font Family */
+
+#homeCarousel{
+    width: 100%;
+    aspect-ratio: 20 / 9;
+}
+
+.carouselArrows{
+    position: absolute;
+    display: flex; 
+    z-index: 3; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer; 
+    opacity: 0.3; 
+    transition: 0.3s;
+    font-size: x-large;
+    color: var(--BlueWhite);
+}
+
+.prevArrow{
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.nextArrow{
+    top: 0; 
+    bottom: 0; 
+    right: 0; 
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.carouselArrows:hover{
+    opacity: 1;
+    backdrop-filter: brightness(60%);
+}

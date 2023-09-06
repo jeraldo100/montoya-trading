@@ -1,0 +1,17 @@
+#ProductsContainer{
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 25%;
+    gap: 20px;
+    width: fit-content;
+}
+
+#bodyContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
