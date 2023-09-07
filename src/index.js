@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import NavBar from './Pages/NavBar';
 import HomePage from './Pages/HomePage';
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<NavBar />}>
           <Route index element={<HomePage />} />
@@ -23,7 +23,7 @@ root.render(
           <Route path="ContactUs" element={<ContactUs />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
     <Footer />
     {/* <div style={{position: 'sticky', top: 0, zIndex: 4}}>
