@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/montoya-trading/static/css/main.113ee978.css",
+    "main.css": "/montoya-trading/static/css/main.609ce165.css",
     "main.js": "/montoya-trading/static/js/main.b936cdf1.js",
     "static/js/787.cf74e8a5.chunk.js": "/montoya-trading/static/js/787.cf74e8a5.chunk.js",
     "index.html": "/montoya-trading/index.html",
-    "main.113ee978.css.map": "/montoya-trading/static/css/main.113ee978.css.map",
+    "main.609ce165.css.map": "/montoya-trading/static/css/main.609ce165.css.map",
     "main.b936cdf1.js.map": "/montoya-trading/static/js/main.b936cdf1.js.map",
     "787.cf74e8a5.chunk.js.map": "/montoya-trading/static/js/787.cf74e8a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.113ee978.css",
+    "static/css/main.609ce165.css",
     "static/js/main.b936cdf1.js"
   ]
 }
